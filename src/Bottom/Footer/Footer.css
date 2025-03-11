@@ -1,0 +1,68 @@
+footer
+{
+    overflow: hidden;
+    height: 30vh;
+    padding: 40px 0px;
+    width: 100%;
+    background-color: #282D32;
+}
+footer #FooterContainer
+{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+#FooterData
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#FooterData #FooterDataCard
+{
+    width: 30%;
+    height: auto;
+}
+#FooterData #FooterDataCard #FooterDataSCard
+{
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+}
+#FooterData #FooterDataCard #FooterDataSCard h4
+{
+    margin-bottom: 10px;
+    color: white;
+}
+#FooterData #FooterDataCard #FooterDataSCard ul li 
+{
+    color: #80878D;
+}
+#FooterData #FooterDataCard #FooterDataSCard h4 a i
+{
+    margin-left: 5px;
+    font-size: 2rem;
+    color: white;
+}
+#FooterData #FooterDataCard #FooterDataSCard ul li a
+{
+    color: #80878D;
+}
+#FooterData #FooterDataCard #FooterDataSCard ul .AboutCompany
+{
+    color: #80878D;
+
+}
+ #FooterData #FooterDataCard #FooterDataSCard .AboutCompany
+{
+    line-height: 1.5; /* Matn oralig'ini tartibga solish */
+    display: block; /* Agar inline bo'lsa, blok qilish */
+    overflow: hidden; /* Kerak bo'lsa, ortiqcha bo'laklarni yashirish */
+    word-wrap: break-word; /* So'zlarni joylashiga mos tushirish */
+    height: auto !important;
+}
+№FooterData #FooterDataCard #FooterDataSCard a i
+{
+    color: white;
+    margin: 0px 5px;
+    font-size: 1.6rem;
+}

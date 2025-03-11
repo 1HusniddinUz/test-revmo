@@ -1,0 +1,97 @@
+#MainTop
+{
+    width: 100%;
+}
+#MainTopBenefits
+{
+    display: none;
+    width: 100%;
+    border: 1px solid black;
+    display: none;
+    width: 100%;
+}
+#MainTopBenefits #MainBenefitsContainer
+{
+    width: 80%;
+    height: 30vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#MainTopBenefits #MainBenefitsContainer #MainBenefitsCard
+{
+    width: 30%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+#MainTopBenefits #MainBenefitsContainer #MainBenefitsCard i
+{
+    font-size: 1.6rem;
+}
+#MainTopBenefits #MainBenefitsContainer #MainBenefitsCard h3
+{
+    color: black;
+}
+#MainTopBenefits #MainBenefitsContainer #MainBenefitsCard p
+{
+    color: black;
+}
+#MainTopHero 
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../media/hero-gloves.png");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+#MainTopHero #MainHero_Overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#MainTopHero #MainHeroPromo
+{
+    position: absolute;
+    padding: 0px 0px 0px 40px;
+    margin: 200px 200px;
+    width: 40%;
+    height: 50%;
+    align-content: center;
+    background-color: white;
+    z-index: 10;
+}
+#MainTopHero #MainHeroPromo h3
+{
+    color: black;
+}
+#MainTopHero #MainHeroPromo h1
+{
+    color: black;
+    margin: 10px 0px;
+    font-size: 2rem;
+}
+#MainTopHero #MainHeroPromo p
+{
+    color: black;
+    margin: 10px 0px;
+}
+#MainTopHero #MainHeroPromo a button
+{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #F07427;
+    color: white;
+}

@@ -1,0 +1,100 @@
+#MainBottom
+{
+    width: 100%;
+}
+#MainBottom #MainFeature 
+{
+    width: 100%;
+}
+#MainBottom #MainFeature #FeatureContainer
+{
+    width: 100%;
+    display: flex;
+}
+#MainBottom #MainFeature #FeatureContainer #FeatureGloves
+{
+    width: 50%;
+    height: 90vh;
+    background-image: url("../../media/FeatureGloves.png");
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+#MainBottom #MainFeature #FeatureContainer #FeatureGlovesInfo
+{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+#MainBottom #MainFeature #FeatureContainer #FeatureGlovesInfo #FeatureGlovesText
+{
+    width: 60%;
+    margin: 0 auto;
+}
+#MainBottom #MainFeature #FeatureContainer #FeatureGlovesInfo #FeatureGlovesText h2
+{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+#MainBottom #MainFeature #FeatureContainer #FeatureGlovesInfo #FeatureGlovesText p
+{
+    margin: 10px 0px;
+}
+#MainBottom #MainFeature #FeatureContainer #FeatureGlovesInfo a button
+{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #F07427;
+    color: white;
+}
+#MainFeatureProducts 
+{
+    text-align: center ;
+    padding: 40px 0px;
+    width: 100%;
+    background: #FAFAFA;
+}
+#MainFeatureProducts h2
+{
+    text-align: center;
+    font-size: 2.2rem;
+}
+#MainFeatureProducts #MainProductsContainer
+{
+    width: 80% ;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#MainFeatureProducts #MainProductsContainer #ProductGloves
+{
+    width: 30%;
+    background-color: white ;
+}
+#MainFeatureProducts #MainProductsContainer #ProductGloves img 
+{
+    width: 100%;
+}
+#MainFeatureProducts #MainProductsContainer #ProductGloves #GlovesText
+{
+    text-align: start;
+    padding: 20px 10px 20px 40px;
+}
+#MainFeatureProducts #MainProductsContainer #ProductGloves #GlovesText h3
+{
+    font-size: 1.4rem;
+    color: #0062A8;
+    margin: 10px 0px;
+}
+#MainFeatureProducts a button
+{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #F07427;
+    color: white;
+}
